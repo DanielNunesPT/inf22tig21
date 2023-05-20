@@ -191,4 +191,25 @@ audio { display:none;}
     margin-bottom: 350px; /* Same height as footer */
     padding: 5px 0;
   }
+  
+*{
+	box-sizing: border-box
+}
 
+.image-slideshow {
+  max-width: 850px;
+  position: relative;
+  margin: auto;
+  padding-top: 50px;
+}
+img {
+  width: 100%
+}
+.fade {
+  animation-name: fade;
+  animation-duration: 2s;
+}
+@keyframes fade {
+  from {opacity: .5}
+  to {opacity: 1}
+}

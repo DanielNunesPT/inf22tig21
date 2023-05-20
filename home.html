@@ -2,8 +2,8 @@
 <html lang=pt>
   <head >
     <meta charset="utf-8">
-    <link rel="stylesheet" href="style.css">
-    <script type="text/javascript" href="script.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <script type="text/javascript" href="javascript/script.js"></script>
   <title>Animais em perigo de extinção</title>
   <nav id='menu'>
     <ul>
@@ -15,8 +15,24 @@
     </ul>
   </nav>
 </head>
-<body>
-  <audio autoplay="true" src="animalsounds.mp3"></audio>
+<body onload="showSlides()">
+  <div class="image-slideshow">
+    <div class="image fade">
+    <img src="imagens/asno_selvagem.jpg" alt="Asno Selvagem">
+    </div>        
+    <div class="image fade">
+    <img src="imagens/elefante-asiatico.jpg" alt="Elefante Asiático">
+    </div>        
+    <div class="image fade">
+    <img src="imagens/foca_monge.jpg" alt="Foca Monge do Hawai">
+    </div>
+    <div class="image fade">
+    <img src="imagens/Lobo_Vermelho.jpg" alt="Lobo Vermelho">
+    </div>
+  </div>
+  <script src="javascript/script.js"></script>
+<br>
+  <audio autoplay="true" src="som/animalsounds.mp3"></audio>
  
 <footer class="fixed_footer">
   <div class="content">
@@ -24,6 +40,6 @@
     <p>© Betânia Santos , Daniel Nunes, Vasco Neves | 2023</p>
   </div>
 </footer> 
-<a id='download' href="xml.xml"download>Download de informação sobre os animais</a>
+<a id='download' href="xml/xml.xml"download>Download de informação sobre os animais</a>
 </body>
 </html>
