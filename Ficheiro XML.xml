@@ -1,0 +1,45 @@
+<lobo>
+  <nome>Lobo Vermelho</nome>
+  <cientifico>Canis lupus rufus</cientifico>
+  <descricao>
+    O lobo vermelho, também conhecido como lobo do leste, é uma subespécie do lobo cinzento (Canis lupus). Possui uma pelagem avermelhada característica que varia de tons claros a escuros, adaptando-se perfeitamente aos ambientes florestais onde vive.
+  </descricao>
+  <caracteristicas>
+    <cor>vermelho</cor>
+    <tamanho>médio a grande</tamanho>
+    <peso>
+      <minimo>25 kg</minimo>
+      <maximo>40 kg</maximo>
+    </peso>
+    <comprimento>
+      <corpo>1,2 m a 1,5 m</corpo>
+      <cauda>30 cm a 50 cm</cauda>
+    </comprimento>
+    <altura>60 cm a 80 cm</altura>
+    <habitat>florestas, montanhas e regiões de taiga</habitat>
+    <distribuicao>
+      <continente>América do Norte</continente>
+      <pais>Estados Unidos e México</pais>
+    </distribuicao>
+    <alimentacao>carnívora</alimentacao>
+    <dieta>
+      <presas>alces, cervos, carneiros selvagens</presas>
+      <outros>roedores, coelhos e ocasionalmente frutas</outros>
+    </dieta>
+    <habitos>solitário ou em pequenos grupos familiares</habitos>
+    <reproducao>
+      <epoca>inverno a primavera</epoca>
+      <gestacao>60 a 63 dias</gestacao>
+      <filhotes>3 a 6 filhotes</filhotes>
+    </reproducao>
+    <esperanca_vida>8 a 10 anos</esperanca_vida>
+  </caracteristicas>
+  <conservacao>
+    <status>Em perigo</status>
+    <ameacas>
+      <ameaca>perda de habitat</ameaca>
+      <ameaca>caça ilegal</ameaca>
+      <ameaca>conflitos com humanos</ameaca>
+    </ameacas>
+  </conservacao>
+</lobo>
