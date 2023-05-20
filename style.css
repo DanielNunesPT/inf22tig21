@@ -135,10 +135,14 @@ audio { display:none;}
 	#menu input:checked ~ ul {display:block}
 }
 #download {
-		position: fixed;
-		bottom: 0;
-		right: 0;
-	  }
+	position: fixed;
+	right: 20px;
+	bottom: 20px;
+	background-color: #4CAF50;
+	color: white;
+	padding: 10px 20px;
+	text-decoration: none;
+  }
 #wrapper{
 	min-height: 100%;
 	position: relative;
