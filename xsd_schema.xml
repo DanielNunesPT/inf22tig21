@@ -1,0 +1,103 @@
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="animais">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="animal" maxOccurs="unbounded" minOccurs="0">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element type="xs:string" name="nome"/>
+              <xs:element type="xs:string" name="cientifico"/>
+              <xs:element type="xs:string" name="descricao"/>
+              <xs:element name="caracteristicas">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element type="xs:string" name="cor" minOccurs="0"/>
+                    <xs:element type="xs:string" name="tamanho"/>
+                    <xs:element name="peso">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element type="xs:string" name="minimo"/>
+                          <xs:element type="xs:string" name="maximo"/>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="comprimento">
+                      <xs:complexType mixed="true">
+                        <xs:sequence>
+                          <xs:element type="xs:string" name="corpo" minOccurs="0"/>
+                          <xs:element type="xs:string" name="cauda" minOccurs="0"/>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element type="xs:string" name="altura" minOccurs="0"/>
+                    <xs:element type="xs:string" name="habitat"/>
+                    <xs:element name="distribuicao">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element type="xs:string" name="continente" minOccurs="0"/>
+                          <xs:element type="xs:string" name="pais" minOccurs="0"/>
+                          <xs:element type="xs:string" name="paises" minOccurs="0"/>
+                          <xs:element type="xs:string" name="ilha" minOccurs="0"/>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element type="xs:string" name="alimentacao"/>
+                    <xs:element name="dieta">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element type="xs:string" name="presas" minOccurs="0"/>
+                          <xs:element type="xs:string" name="outros" minOccurs="0"/>
+                          <xs:element name="alimentos" minOccurs="0">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element type="xs:string" name="planta" maxOccurs="unbounded" minOccurs="0"/>
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                          <xs:element type="xs:string" name="quantidade" minOccurs="0"/>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element type="xs:string" name="habitos"/>
+                    <xs:element name="reproducao">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element type="xs:string" name="epoca"/>
+                          <xs:element type="xs:string" name="gestacao"/>
+                          <xs:element type="xs:string" name="filhotes"/>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element type="xs:string" name="esperanca_vida"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="conservacao">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element type="xs:string" name="status"/>
+                    <xs:element name="ameacas">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element type="xs:string" name="ameaca" maxOccurs="unbounded" minOccurs="0"/>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="programas_protecao" minOccurs="0">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element type="xs:string" name="programa" maxOccurs="unbounded" minOccurs="0"/>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+            <xs:attribute type="xs:byte" name="id" use="optional"/>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

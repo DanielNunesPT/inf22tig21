@@ -1,0 +1,191 @@
+<?xml version="1.0"?>
+<animais>
+  <animal id="1">
+    <nome>Lobo Vermelho</nome>
+    <cientifico>Canis lupus rufus</cientifico>
+    <descricao>
+    O lobo vermelho, também conhecido como lobo do leste, é uma subespécie do lobo cinzento (Canis lupus). Possui uma pelagem avermelhada característica que varia de tons claros a escuros, adaptando-se perfeitamente aos ambientes florestais onde vive.
+    </descricao>
+    <caracteristicas>
+      <cor>vermelho</cor>
+      <tamanho>médio a grande</tamanho>
+      <peso>
+        <minimo>25 kg</minimo>
+        <maximo>40 kg</maximo>
+      </peso>
+      <comprimento>
+        <corpo>1,2 m a 1,5 m</corpo>
+        <cauda>30 cm a 50 cm</cauda>
+      </comprimento>
+      <altura>60 cm a 80 cm</altura>
+      <habitat>florestas, montanhas e regiões de taiga</habitat>
+      <distribuicao>
+        <continente>América do Norte</continente>
+        <pais>Estados Unidos e México</pais>
+      </distribuicao>
+      <alimentacao>carnívora</alimentacao>
+      <dieta>
+        <presas>alces, cervos, carneiros selvagens</presas>
+        <outros>roedores, coelhos e ocasionalmente frutas</outros>
+      </dieta>
+      <habitos>solitário ou em pequenos grupos familiares</habitos>
+      <reproducao>
+        <epoca>inverno a primavera</epoca>
+        <gestacao>60 a 63 dias</gestacao>
+        <filhotes>3 a 6 filhotes</filhotes>
+      </reproducao>
+      <esperanca_vida>8 a 10 anos</esperanca_vida>
+    </caracteristicas>
+    <conservacao>
+      <status>Em perigo</status>
+      <ameacas>
+        <ameaca>perda de habitat</ameaca>
+        <ameaca>caça ilegal</ameaca>
+        <ameaca>conflitos com humanos</ameaca>
+      </ameacas>
+    </conservacao>
+  </animal>
+
+  <animal id="2">
+    <nome>Elefante Asiático</nome>
+    <cientifico>Elephas maximus</cientifico>
+    <descricao>
+    O elefante asiático, também conhecido como elefante indiano, é uma das maiores espécies terrestres existentes. Possui um tamanho imponente, caracterizado por seu corpo robusto, presas curvas e uma tromba longa e flexível, que é uma de suas principais características distintivas.
+    </descricao>
+    <caracteristicas>
+      <tamanho>grande</tamanho>
+      <peso>
+        <minimo>4.000 kg</minimo>
+        <maximo>6.000 kg</maximo>
+      </peso>
+      <comprimento>
+        <corpo>5,5 m a 6,4 m</corpo>
+        <cauda>1,2 m a 1,5 m</cauda>
+      </comprimento>
+      <altura>2,5 m a 3 m</altura>
+      <habitat>florestas tropicais, matas e áreas de capim</habitat>
+      <distribuicao>
+        <continente>Ásia</continente>
+        <paises>Índia, Tailândia, Sri Lanka, Myanmar, entre outros</paises>
+      </distribuicao>
+      <alimentacao>herbívora</alimentacao>
+      <dieta>
+        <alimentos>
+          <planta>gramíneas</planta>
+          <planta>folhas</planta>
+          <planta>frutas</planta>
+        </alimentos>
+        <quantidade>100 a 150 kg por dia</quantidade>
+      </dieta>
+      <habitos>social, vive em grupos</habitos>
+      <reproducao>
+        <epoca>ao longo do ano</epoca>
+        <gestacao>18 a 22 meses</gestacao>
+        <filhotes>geralmente 1 filhote</filhotes>
+      </reproducao>
+      <esperanca_vida>60 a 70 anos</esperanca_vida>
+    </caracteristicas>
+    <conservacao>
+      <status>Vulnerável</status>
+      <ameacas>
+        <ameaca>perda de habitat</ameaca>
+        <ameaca>caça ilegal</ameaca>
+        <ameaca>conflitos com humanos</ameaca>
+      </ameacas>
+    </conservacao>
+  </animal>
+
+  <animal id="3">
+    <nome>Foca Monge do Havaí</nome>
+    <cientifico>Monachus schauinslandi</cientifico>
+    <descricao>
+    A Foca Monge do Havaí é uma espécie rara e ameaçada de foca encontrada exclusivamente nas ilhas do Havaí. Ela possui um corpo alongado, uma cabeça arredondada e nadadeiras dianteiras curtas. A pelagem varia de cinza claro a marrom escuro, com manchas mais claras na barriga.
+    </descricao>
+    <caracteristicas>
+      <tamanho>grande</tamanho>
+      <peso>
+        <minimo>200 kg</minimo>
+        <maximo>300 kg</maximo>
+      </peso>
+      <comprimento>2,2 m a 2,7 m</comprimento>
+      <habitat>praias, ilhas e águas costeiras</habitat>
+      <distribuicao>
+        <ilha>Ilhas do Havaí</ilha>
+      </distribuicao>
+      <alimentacao>piscívora</alimentacao>
+      <dieta>
+        <presas>peixes, lulas e crustáceos</presas>
+      </dieta>
+      <habitos>solitária, mas pode ser vista em pequenos grupos</habitos>
+      <reproducao>
+        <epoca>ao longo do ano</epoca>
+        <gestacao>10 a 11 meses</gestacao>
+        <filhotes>geralmente 1 filhote</filhotes>
+      </reproducao>
+      <esperanca_vida>até 25 anos</esperanca_vida>
+    </caracteristicas>
+    <conservacao>
+      <status>Criticamente ameaçada</status>
+      <ameacas>
+        <ameaca>perda de habitat</ameaca>
+        <ameaca>pesca incidental</ameaca>
+        <ameaca>poluição marinha</ameaca>
+      </ameacas>
+      <programas_protecao>
+        <programa>Programa de Recuperação de Focas Monge do Havaí</programa>
+        <programa>Restrições de acesso a praias de reprodução</programa>
+        <programa>Monitoramento e pesquisa de populações</programa>
+      </programas_protecao>
+    </conservacao>
+  </animal>
+
+  <animal id ="4">
+    <nome>Asno Selvagem Africano</nome>
+    <cientifico>Equus africanus</cientifico>
+    <descricao>
+    O Asno Selvagem Africano, também conhecido como Asno-da-Núbia, é uma espécie de equídeo selvagem encontrado em áreas desérticas e semiáridas da África. Ele possui um corpo robusto, pernas longas e orelhas grandes. A pelagem é curta e de cor marrom acinzentada.
+    </descricao>
+    <caracteristicas>
+      <tamanho>médio a grande</tamanho>
+      <peso>
+        <minimo>200 kg</minimo>
+        <maximo>275 kg</maximo>
+      </peso>
+      <comprimento>2,1 m a 2,5 m</comprimento>
+      <altura>1,2 m a 1,4 m</altura>
+      <habitat>desertos, savanas e áreas montanhosas</habitat>
+      <distribuicao>
+        <continente>África</continente>
+        <paises>Somália, Etiópia, Sudão, entre outros</paises>
+      </distribuicao>
+      <alimentacao>herbívora</alimentacao>
+      <dieta>
+        <alimentos>
+          <planta>gramíneas</planta>
+          <planta>folhas</planta>
+          <planta>brotos</planta>
+        </alimentos>
+      </dieta>
+      <habitos>gregário, vive em grupos</habitos>
+      <reproducao>
+        <epoca>ao longo do ano</epoca>
+        <gestacao>12 a 13 meses</gestacao>
+        <filhotes>geralmente 1 filhote</filhotes>
+      </reproducao>
+      <esperanca_vida>25 a 30 anos</esperanca_vida>
+    </caracteristicas>
+    <conservacao>
+      <status>Em perigo crítico</status>
+      <ameacas>
+        <ameaca>caça ilegal</ameaca>
+        <ameaca>perda de habitat</ameaca>
+        <ameaca>conflitos com humanos</ameaca>
+      </ameacas>
+      <programas_protecao>
+        <programa>Programa de Conservação do Asno Selvagem Africano</programa>
+        <programa>Restrições à caça e comércio</programa>
+        <programa>Preservação e recuperação de habitats</programa>
+      </programas_protecao>
+    </conservacao>
+  </animal>
+</animais>
