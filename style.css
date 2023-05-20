@@ -6,6 +6,14 @@ body {
 h1{
     text-align: center;
 }
+.p {
+	text-align: center;
+}
+
+.p .extra{
+	text-align: center;
+}
+
 audio { display:none;}
 .tg  {
     border-collapse:collapse;border-spacing:0;
