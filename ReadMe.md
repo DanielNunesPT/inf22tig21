@@ -29,18 +29,25 @@ This is the technologies we have used in this assignment.
 [Javascript](https://www.w3schools.com/js/)
 
 # Report
-- Home Page
--- Asno
+* [Home Page](../inf22tig01/home.html)
+    * [Asno Selvagem Africano](../inf22tig01/asno.html)
+    * [Foca do Monge do Havai](../inf22tig01/foca.html)
+    * [Lobo Vermelho](../inf22tig01/lobo.html)
+    * [Elefante Asiático](../inf22tig01/elefante.html)
 
 # Project presentation
 Home Page: Presentation
 HTML Page
+
 Asno Selvagem Africano: 
 HTML Page
+
 Foca do Monge do Havai:
 HTML Page
+
 Lobo Vermelho:
 HTML Page
+
 Elefante Asiático:
 HTML Page
 
