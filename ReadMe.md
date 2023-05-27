@@ -47,7 +47,9 @@ HTML Page
 #### Elefante Asiático:
 HTML Page
 
-# Team
+# Group
 [Betânia Santos](https://www.github.com/betaniasan)
+
 [Daniel Nunes](https://www.github.com/DanielNunesPT)
+
 [Vasco Neves](https://www.github.com/nevesvasco)
