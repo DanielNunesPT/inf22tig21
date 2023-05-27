@@ -37,21 +37,26 @@ This is the technologies we have used in this assignment.
 
 # Project presentation
 Home Page: Presentation
+
 HTML Page
 
 Asno Selvagem Africano: 
+
 HTML Page
 
 Foca do Monge do Havai:
+
 HTML Page
 
 Lobo Vermelho:
+
 HTML Page
 
 Elefante Asiático:
+
 HTML Page
 
 # Team
-Betânia Santos @betaniasan
-Daniel Nunes @DanielNunesPT
-Vasco Neves @nevesvasco
+[Betânia Santos](https://www.github.com/betaniasan)
+[Daniel Nunes](https://www.github.com/DanielNunesPT)
+[Vasco Neves](https://www.github.com/nevesvasco)
