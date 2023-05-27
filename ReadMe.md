@@ -1,4 +1,4 @@
-# Animais em vias de extinsão
+# Animais em vias de extinção
 Repository to host the project developed for 'Tecnologias de Internet', a first year subject at Universidade da Maia. Developed by Group 21 : [@betaniasan](https://www.github.com/betaniasan), [@DanielNunesPT](https://www.github.com/DanielNunesPT), [@nevesvasco](https://www.github.com/nevesvasco).
 
 # Short theme description
