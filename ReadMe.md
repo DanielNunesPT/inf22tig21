@@ -36,24 +36,15 @@ This is the technologies we have used in this assignment.
     * [Elefante Asiático](../inf22tig01/elefante.html)
 
 # Project presentation
-Home Page: Presentation
-
+#### Home Page: Presentation
 HTML Page
-
-Asno Selvagem Africano: 
-
+#### Asno Selvagem Africano: 
 HTML Page
-
-Foca do Monge do Havai:
-
+#### Foca do Monge do Havai:
 HTML Page
-
-Lobo Vermelho:
-
+#### Lobo Vermelho:
 HTML Page
-
-Elefante Asiático:
-
+#### Elefante Asiático:
 HTML Page
 
 # Team
