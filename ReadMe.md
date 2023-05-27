@@ -5,28 +5,36 @@ Repository to host the project developed for 'Tecnologias de Internet', a first 
 The project involves gathering data on endangered animals, their habitats, and the factors threatening their survival. The group delve into the ecological dynamics of these species, studying their behavior, reproduction patterns, and interactions within their ecosystems.
 
 # Repository organization
-Please help reader navigate around describing how the repository is organized by providing links
-
-# Source code is in the src folder.
-Report chapters are in doc folder.
-Gallery 1
-Please provide a galery of the final result, with small images A table may be usefull to organize the images.
+[CSS](../inf22tig01/css/style.css) this the Style Sheet file of the project.
+[Imagens](../inf22tig01/imagens/) this is the image folder containing all the used images on the website.
+[Javascript](../inf22tig01/javascript/script.js) this the Javascript file of the project.
+[Relatório](../inf22tig01/relatorio/) this is the folder for all the MD files.
+[Som](../inf22tig01/som/animalsounds.mp3) this is the file used for the sound of the home page.
+[XML](../inf22tig01/xml/xml.xml) this is the XML file that is available to download in the website.
 
 # Technologies
-Indicate the technologies you have used in this assignment. Please provide links for the user to read more about those technologies.
+This is the technologies we have used in this assignment.
 
-XML
-HTML5 + CSS3
-Javascript
+[XML](https://www.w3schools.com/xml/)
+[HTML5](https://www.w3schools.com/html/) 
+[CSS3](https://www.w3schools.com/css/)
+[Javascript](https://www.w3schools.com/js/)
+
+# Report
+- Home Page
+-- Asno
 
 # Project presentation
-Chapter 1: Project presentation
-User Interface
-Chapter 2: User Interface Prototype and Sitemap
-Product
-Chapter 3: Product
-Presentation
-Chapter 4: Presentation
+Home Page: Presentation
+HTML Page
+Asno Selvagem Africano: 
+HTML Page
+Foca do Monge do Havai:
+HTML Page
+Lobo Vermelho:
+HTML Page
+Elefante Asiático:
+HTML Page
 
 # Team
 Betânia Santos @betaniasan
