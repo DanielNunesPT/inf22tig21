@@ -6,18 +6,26 @@ The project involves gathering data on endangered animals, their habitats, and t
 
 # Repository organization
 [CSS](../inf22tig01/css/style.css) this the Style Sheet file of the project.
+
 [Imagens](../inf22tig01/imagens/) this is the image folder containing all the used images on the website.
+
 [Javascript](../inf22tig01/javascript/script.js) this the Javascript file of the project.
+
 [Relatório](../inf22tig01/relatorio/) this is the folder for all the MD files.
+
 [Som](../inf22tig01/som/animalsounds.mp3) this is the file used for the sound of the home page.
+
 [XML](../inf22tig01/xml/xml.xml) this is the XML file that is available to download in the website.
 
 # Technologies
 This is the technologies we have used in this assignment.
 
 [XML](https://www.w3schools.com/xml/)
+
 [HTML5](https://www.w3schools.com/html/) 
+
 [CSS3](https://www.w3schools.com/css/)
+
 [Javascript](https://www.w3schools.com/js/)
 
 # Report
