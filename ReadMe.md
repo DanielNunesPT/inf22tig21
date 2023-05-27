@@ -1,8 +1,8 @@
-# My example work assignment Title
-Repository to host the project developed for 'some class', a fisrt year subject at SOMESCHOOL. Developed by Group ALPHA : [@betaniasan](https://www.github.com/betaniasan), [@DanielNunesPT](https://www.github.com/DanielNunesPT), [@nevesvasco](https://www.github.com/nevesvasco).
+# Animais em vias de extinsão
+Repository to host the project developed for 'Tecnologias de Internet', a first year subject at Universidade da Maia. Developed by Group 21 : [@betaniasan](https://www.github.com/betaniasan), [@DanielNunesPT](https://www.github.com/DanielNunesPT), [@nevesvasco](https://www.github.com/nevesvasco).
 
 # Short theme description
-An example report using markdown on Github. This documentation is writen using Markdown. Here is a link to the basic syntax, but an extended syntax is also available. If you're starting with Markdown, you may want to try a Markdown Tutorial and read the getting started section.
+The project involves gathering data on endangered animals, their habitats, and the factors threatening their survival. The group delve into the ecological dynamics of these species, studying their behavior, reproduction patterns, and interactions within their ecosystems.
 
 # Repository organization
 Please help reader navigate around describing how the repository is organized by providing links
