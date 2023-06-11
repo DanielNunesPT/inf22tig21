@@ -1,3 +1,22 @@
+.container {  display: grid;
+	grid-template-columns: 1fr 1.2fr 0.8fr;
+	grid-template-rows: 0.04fr 0.04fr 0.09fr 0.02fr;
+	gap: 0px 0px;
+	grid-auto-flow: row;
+	grid-template-areas:
+	  "menu menu menu"
+	  "header header header"
+	  "main main main"
+	  "footer footer footer";
+  }
+  
+  .footer { grid-area: footer; }
+  
+  .main { grid-area: main; }
+  
+  .header { grid-area: header; }
+  
+  .menu { grid-area: menu; text-align: center; }  
 body {
     background-color:blanchedalmond;
 	margin: 0;
@@ -9,42 +28,11 @@ h1{
 .p {
 	text-align: center;
 }
-
-.tg {
-    border-collapse:collapse;border-spacing:0;
-    margin-left: auto; 
-    margin-right: auto;
-}
 .img{
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
-.tg td{
-    border-color:black;
-    border-style:solid;
-    border-width:0px;
-    font-family:Arial, sans-serif;font-size:14px;
-    overflow:hidden;padding:10px 5px;
-    word-break:normal;
-	text-align: center;
-}
-.tg th{
-    border-color:black;
-    border-style:solid;
-    border-width:1px;
-    font-family:Arial, sans-serif;
-    font-size:14px;
-    font-weight:normal;
-    overflow:hidden;
-    padding:10px 5px;
-    word-break:normal;
-}
-.tg .tg-baqh{
-    text-align:center;
-    vertical-align:top;
-}
-
 #menu {
 	background: #54360b;
 	color: #FFF;
@@ -63,7 +51,7 @@ h1{
 #menu li {
 	float: left;
 	display: inline;
-	position: relative;
+	position: center;
 }
 #menu a {
 	display: block;
@@ -72,10 +60,6 @@ h1{
 	text-decoration: none;
 	color: #FFFFFF;
 	font-size: 16px;
-}
-#menu a.dropdown-arrow:after {
-	content: "\25BE";
-	margin-left: 5px;
 }
 #menu li a:hover {
 	color: #0099CC;
