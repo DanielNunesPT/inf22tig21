@@ -12,7 +12,10 @@
   
   .footer { grid-area: footer; }
   
-  .main { grid-area: main; }
+  .main { 
+	grid-area: main; 
+	text-align: center;
+}
   
   .header { grid-area: header; }
   
