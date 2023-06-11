@@ -54,7 +54,7 @@ h1{
 #menu li {
 	float: left;
 	display: inline;
-	position: center;
+	position: relative;
 }
 #menu a {
 	display: block;
@@ -141,7 +141,9 @@ h1{
 	div.body-content{
 	  /** Altura do rodapé tem que ser igual a isso aqui e vice-versa **/
 	padding-bottom: 100px;
-	}
+	min-height: 100%;
+	position: relative;
+}
 	
 .fixed_footer {
         width: 100%;
@@ -152,15 +154,12 @@ h1{
   		left: 0;
  		position: fixed;
   		width: 100%;
-#wrapper{
-	min-height: 100%;
-	position: relative;
+		
 }
-.body-content{
+.body-content	{
 	padding-bottom: 100px;
 }
 
-}
 .fixed_footer p{
     color: #f2f1f1;
     column-count: 2;
