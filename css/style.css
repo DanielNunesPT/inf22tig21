@@ -224,3 +224,35 @@ body {
 	cursor: pointer;
 	margin-top: 10px;
   }
+  audio {
+	visibility:hidden;
+  }
+  	.imagereplacement {
+		background: url("https://www.mundoecologia.com.br/wp-content/uploads/2019/01/Lobo-Vermelho-5-1.jpg") no-repeat;
+		width: 1024px;
+		height: 820px;
+		margin: auto;
+		margin-left:auto;
+		margin-right: auto;
+		margin-bottom: auto;
+}
+@media only screen and (max-width: 767px) {
+	body {
+	  font-size: 14px;
+	}
+  
+	.container {
+	  width: 100%;
+	  padding: 10px;
+	}
+  }
+  @media only screen and (min-width: 768px) {
+	body {
+	  font-size: 16px;
+	}
+  
+	.container {
+	  width: 80%;
+	  margin: 0 auto;
+	}
+  }
