@@ -226,3 +226,35 @@ body {
 	cursor: pointer;
 	margin-top: 10px;
   }
+  #address {
+	color:white;
+  }
+  #audio {
+	visibility: hidden;
+  }
+  #lista {
+	text-align: center;
+	
+	
+  }
+  #website1 {
+	display:flex;
+	justify-content: center;
+	align-items: center;
+
+  }
+  #website2 {
+	display:flex;
+	justify-content: center;
+	align-items: center;
+  }
+  #website3 {
+	display:flex;
+	justify-content: center;
+	align-items: center;
+
+
+  }
+  #h3 {
+	text-align: center;
+  }
